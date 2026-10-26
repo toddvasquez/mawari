@@ -1,12 +1,8 @@
-<p align="center">
-  <img src="docs/images/mark.jpg" width="200" alt="A pale petal resting in the lit gap between two dark windows">
-</p>
-
 <h1 align="center">Mawari</h1>
 
 <p align="center">
   Motion in the empty space <strong>around and between</strong> Hyprland windows.<br>
-  An <a href="https://omarchy.org/">Omarchy</a> shell plugin. The name is 周り: the space around something.
+  An <a href="https://omarchy.org/">Omarchy</a> shell plugin.
 </p>
 
 <p align="center">
@@ -16,12 +12,18 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/hero.jpg" alt="Cherry blossom petals drifting through the gaps between dark terminal windows">
+  <img src="docs/images/hero.jpg" alt="The shotengai-90s wallpaper from cherry-blossom-day, a shopping street under cherry blossoms">
 </p>
 
 Mawari paints on the layer behind your windows, so titles, terminals, and the theme stay as they are. A chip on the bar cycles the effect. The desktop underneath keeps working.
 
 Left-click the chip to move to the next effect. Right-click turns Mawari off.
+
+## The name
+
+周り (mawari) is the circumference of a thing, and the surroundings pressed against that edge. The word is glossed as circumference, perimeter, and girth, and also as surroundings, neighborhood, and vicinity: the place just beside something. Next to it is the verb 回る (mawaru), to go around.
+
+That ring is the whole plugin. Petals, snow, sand, and the lava-lamp glow travel the perimeter of each window and the gaps between windows. What is on the windows stays put.
 
 ## Install
 
@@ -55,43 +57,43 @@ The chip walks this order, then returns to cherry blossom:
 <table>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="docs/images/hero.jpg" alt="Pale petals falling through the space between windows">
+      <img src="docs/images/hero.jpg" alt="shotengai-90s, the cherry-blossom-day wallpaper">
       <br>
       <strong>Cherry blossom</strong>
       <br>
-      Petals tumbling in a gust, bouncing along window edges
+      <code>5-shotengai-90s.jpg</code> from cherry-blossom-day. Petals already move through the street.
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="docs/images/snow.jpg" alt="Snowflakes in the margins around dark windows">
+      <img src="docs/images/snow.jpg" alt="Snow falling over the station-street wallpaper from cherry-blossom-day">
       <br>
       <strong>Snow</strong>
       <br>
-      Quiet flakes in the margins and gaps
+      Quiet flakes on <code>6-station-street-90s.jpg</code> from cherry-blossom-day. No windows.
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="docs/images/sand.jpg" alt="Sand catching on the tops of windows and sliding down the sides">
+      <img src="docs/images/sand.jpg" alt="Sand grains blowing across the ukiyo-e avenue wallpaper">
       <br>
       <strong>Sand</strong>
       <br>
-      Grains blown by wind, catching on the tops of windows and sliding around the sides
+      Grains on the wind across <code>3-ukiyoe-avenue.jpg</code> from cherry-blossom-day. No windows.
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="docs/images/lava.jpg" alt="Warm glowing fluid pooling in the cracks between windows">
+      <img src="docs/images/lava.jpg" alt="A dwindle tiled Omarchy layout with lava light in the gaps">
       <br>
       <strong>Lava lamp</strong>
       <br>
-      Warm glowing fluid pooling in the cracks between windows
+      Warm light in the cracks of a dwindle layout: square corners, a 2px border, 10px outer gap, 5px between windows. The picture behind them is <code>2-shrine-town-anime.jpg</code>.
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="docs/images/flicker.jpg" width="78%" alt="A dark desktop picture warmed by candlelight behind still windows">
+      <img src="docs/images/flicker.jpg" width="78%" alt="hanami-lanterns, the cherry-blossom-night wallpaper">
       <br>
       <strong>Flicker</strong>
       <br>
-      On a dark theme, the brighter parts of the desktop picture waver like candlelight
+      <code>1-hanami-lanterns.jpg</code> from cherry-blossom-night, with no windows on it. On a dark theme, Mawari re-lights the brighter parts of this picture and cycles those frames behind the windows.
     </td>
   </tr>
 </table>
