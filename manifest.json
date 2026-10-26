@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "toddv.mawari",
+  "name": "Mawari",
+  "version": "1.1.0",
+  "author": "toddv",
+  "license": "MIT",
+  "description": "Motion in the gaps around and between windows: cherry-blossom leaves, snow, sliding sand, lava-lamp glow, or a candle flicker on the brighter parts of a dark-theme desktop picture. Lives behind the windows so the theme and window contents stay untouched.",
+  "keywords": [
+    "particles",
+    "snow",
+    "leaves",
+    "sand",
+    "lava",
+    "flicker",
+    "hyprland",
+    "gaps"
+  ],
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Mawari",
+    "description": "Cycle weather and motion in the gaps between windows",
+    "category": "Desktop",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "effect": "leaves"
+    },
+    "schema": [
+      {
+        "key": "effect",
+        "type": "string",
+        "label": "Effect",
+        "description": "leaves, snow, sand, lava, flicker, or off",
+        "defaultValue": "leaves"
+      }
+    ]
+  }
+}
